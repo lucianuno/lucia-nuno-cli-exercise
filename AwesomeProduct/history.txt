@@ -1,0 +1,70 @@
+  155  mkdir AwesomeProduct
+  156  ls
+  157  cd AwesomeProduct
+  158  clear
+  159  mkdir API Assets Backend Frontend RESTfulAPI
+  160  ls
+  161  cd Backend
+  162  mkdir Databases Scripts Server
+  163  ls
+  164  cd Databases
+  165  mkdir NoSQL Relational
+  166  ls
+  167  cd ..
+  168  clear
+  169  cd Scripts
+  170  mkdir NodeJS
+  171  touch NodeJS/app.js
+  172  ls NodeJS
+  173  cd ..
+  174  clear
+  175  cd Server
+  176  mkdir Docker
+  177  ls
+  178  cd ..
+  179  cd ..
+  180  clear
+  181  cd Frontend
+  182  mkdir CSS HTML JavaScript
+  183  ls
+  184  touch CSS/style.css
+  185  ls CSS
+  186  touch HTML footer.html header.html index.html
+  187  ls HTML
+  188  cd HTML
+  189  touch footer.html header.html index.html
+  190  ls
+  191  cd ..
+  192  clear
+  193  cd JavaScript
+  194  ls
+  195  touch script.js
+  196  ls
+  197  cd ..
+  198  cd ..
+  199  pwd
+  200  cd RESTfulAPI
+  201  touch api.js
+  202  ls
+  203  cd ..
+  204  clear
+  205  zip -r Frontend_HTML.zip Frontend/HTML
+  206  cd Frintend/HTML
+  207  cd Frontend/HTML
+  208  ls
+  209  rm footer.html header.html
+  210  ls
+  211  cd AwesomeProduct
+  212  cd /AwesomeProduct
+  213  cd ..
+  214  cd ..
+  215  ls
+  216  rmdir Assets
+  217  ls
+  218  cp AwesomeProduct/Frontend/Javascript/script.js AwesomeProduct/Backend/Scripts/NodeJS
+  219  cp AwesomeProduct/Frontend/JavaScript/script.js AwesomeProduct/Backend/Scripts/NodeJS
+  220  cp Frontend/JavaScript/script.js Backend/Scripts/NodeJS
+  221  ls Backend/Scripts/NodeJS
+  222  clear
+  223  echo Mission Completed!
+  224  history 70 >> history.txt
